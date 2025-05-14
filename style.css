@@ -1,10 +1,89 @@
 /* Sardor */
 
+<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
+=======
+/* Islom */
+.title {
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    margin: 1rem auto;
+}
+
+.section-line {
+    |width: 56px;
+    height: 2px;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+}
+.hr{
+    width: 40px;
+    height: 2px;
+    border: none;
+    border-radius: 20rem;
+    background-color: #000;
+}
+
+.section-p {
+    display: flex;
+    justify-content: center;
+    width: 952px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #7D7987;
+}
+
+.section-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.box {
+    width: 180px;
+    height: 200px;
+    border: 10px solid #fff;
+}
+
+.box p {
+    color: #7D7987;
+}
+
+.btn {
+    border-radius: 20rem;
+    background-color: #fff;
+    color: #458FF6;
+    transition: 0.7s;
+    width: 200px;
+    height: 60px;
+    border: 2px solid #458FF6;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #458FF6;
+    color: #fff;
+>>>>>>> aa443e3a80c834e1ee8167663f883ace9cf09bfb
 }
 
 .container {
