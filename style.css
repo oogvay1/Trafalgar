@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Sardor */
 
 * {
@@ -1116,3 +1117,263 @@ footer {
     width: 340px;
     margin-top: 2rem;
 }
+=======
+/* Oybek Coder Start */
+
+a{
+    text-decoration: none;
+}
+:root {
+  --color-bg: #e8e8e0;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-primary: #1f1534;
+  --color-secondary: #7d7987;
+  --color-thirdh: #458ff6;
+  --color-fourth: #67c3f3;
+  --color-fifth: #5a98f2;
+
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+  --container-width-sm: 94%;
+
+  --transition: all 600ms ease;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-thirdh);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-fifth);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  color: var(--color-secondary);
+  background: var(--color-bg);
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  color: var(--color-secondary);
+  background: var(--color-bg);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin-inline: auto;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+section > h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+section > p {
+  text-align: center;
+}
+
+a {
+  color: var(--color-fifth);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  color: var(--color-black);
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+p {
+  color: var(--color-secondary);
+}
+
+figcaption {
+  font-size: 0.85rem;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* Button Style */
+
+button {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+ outline: none;
+ border: 0;
+ vertical-align: middle;
+ text-decoration: none;
+ background: transparent;
+ padding: 0;
+ font-size: inherit;
+ font-family: inherit;
+}
+
+button.learn-more {
+ width: 200px;
+ height: 60px;
+}
+
+button.learn-more .circle {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: relative;
+ display: block;
+ margin: 0;
+ width: 3rem;
+ height: 3rem;
+ background: #458FF6;
+ border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ margin: auto;
+ background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ left: 0.625rem;
+ width: 1.125rem;
+ height: 0.125rem;
+ background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+ position: absolute;
+ content: "";
+ top: -0.29rem;
+ right: 0.0625rem;
+ width: 0.625rem;
+ height: 0.625rem;
+ border-top: 0.125rem solid #fff;
+ border-right: 0.125rem solid #fff;
+ transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ padding: 0.75rem 0;
+ margin: 0 0 0 1.85rem;
+ color: #458FF6;
+ font-weight: 700;
+ line-height: 1.6;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+button:hover .circle {
+ width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+ background: #fff;
+ transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+ color: #fff;
+}
+/* .btn {
+  display: inline-block;
+  background: var(--color-thirdh);
+  color: var(--color-white);
+  padding: 0.7rem 1.5rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+  border-radius: 3rem;
+}
+
+.btn:hover {
+  background: transparent;
+  color: var(--color-thirdh);
+  border-color: var(--color-thirdh);
+}
+
+.btn-primary {
+  background: transparent;
+  color: var(--color-thirdh);
+  border: 1px solid var(--color-thirdh);
+}
+/* Oybek Coder End */
+.provider__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+} */
+
+.provider__right p {
+  margin: 1rem 0 2.4rem;
+}
+.app__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+
+.app__left p {
+  margin: 1rem 0 2.4rem;
+}
+
+/* Oybek Coder End */
+>>>>>>> f20a310bc73a6a878396ef20d0ae670b53139840
